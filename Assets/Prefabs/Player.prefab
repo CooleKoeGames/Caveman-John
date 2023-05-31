@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 5263614753791822963}
   - component: {fileID: 5263614753791822962}
   - component: {fileID: 5263614753791822961}
-  - component: {fileID: 5263614753791822960}
+  - component: {fileID: 6749180036604204572}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodText: {fileID: 0}
---- !u!114 &5263614753791822960
+--- !u!114 &6749180036604204572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -197,6 +197,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5263614753791822920}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43cba6ce0aa9f584d9cf0bbad860f0bb, type: 3}
+  m_Script: {fileID: 11500000, guid: ad9b40a9a96c92e41a010c083fd901fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingHealth: 3
