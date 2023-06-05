@@ -15,7 +15,7 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             foodCollected++;
-            foodText.text = "Food Collected: " + foodCollected + "/5";
+            foodText.text = "Food Collected: " + foodCollected + "/10";
         }
     }
 }
