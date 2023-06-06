@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
     private Rigidbody2D rb;
     private bool dead;
 
+    public GameOver gameOver;
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -33,8 +35,20 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("death");
                 GetComponent<PlayerMovement>().enabled = false;
                 rb.bodyType = RigidbodyType2D.Static;
+                gameOver.gameOver();
                 dead = true;
             }
+        }
+    }
+
+    public void Update()
+    {
+        if (Timer.currentTime == 0f && !dead)
+        {
+            anim.SetTrigger("death");
+            GetComponent<PlayerMovement>().enabled = false;
+            rb.bodyType = RigidbodyType2D.Static;
+            dead = true;
         }
     }
 
