@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boulder : MonoBehaviour
 {
     private Animator anim;
+    [SerializeField] private GameObject stone;
 
     private void Start()
     {
@@ -13,9 +14,10 @@ public class Boulder : MonoBehaviour
 
     private void Update()
     {
-        //if (collector.foodCollected == 1)
+        if (ItemCollector.foodCollected == 10)
         {
-            anim.SetTrigger("finish");
+            //anim.SetTrigger("finish");
+            stone.SetActive(false);
         }
     }
 }

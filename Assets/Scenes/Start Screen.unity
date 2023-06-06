@@ -864,16 +864,24 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 79
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Om je grot weer binnen te gaan moet je onderweg al het eten op pakken
+  m_Text: 'Grab all the apples to go to the next level within time.
 
-    Als
-    je hartje pak krijg je weer een leven er bij'
+
+    Controlls:
+
+    A
+    and D or Left and Right arrowr key to move.
+
+    Space to jump.
+
+    Esc for
+    paude menu.'
 --- !u!222 &1050655802
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1282,7 +1290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1543233025
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1406,7 +1414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1777547561
 RectTransform:
   m_ObjectHideFlags: 0

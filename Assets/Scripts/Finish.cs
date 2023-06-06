@@ -7,22 +7,18 @@ public class Finish : MonoBehaviour
 {
     private bool levelCompleted = false;
 
-    private void Start()
-    {
-
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "Player" && !levelCompleted)
         {
             levelCompleted = true;
-            Invoke("CompleteLevel", 2f);
+            Invoke("CompleteLevel", 0f);
         }
     }
 
     private void CompleteLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        ItemCollector.foodCollected = 0;
     }
 }

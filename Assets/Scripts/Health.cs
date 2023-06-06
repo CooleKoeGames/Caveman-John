@@ -46,5 +46,6 @@ public class Health : MonoBehaviour
     private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        ItemCollector.foodCollected = 0;
     }
 }
