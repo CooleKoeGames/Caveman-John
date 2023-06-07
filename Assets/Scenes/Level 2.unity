@@ -1659,7 +1659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774978094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.5, y: 7.5, z: 0.076286815}
+  m_LocalPosition: {x: 30.5, y: 7.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1828,7 +1828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 149685591161398429, guid: 289b27ad0a446fd4eb098361dcb260d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.076286815
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 149685591161398429, guid: 289b27ad0a446fd4eb098361dcb260d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1936,10 +1936,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Om je grot weer binnen te gaan moet je onderweg al het eten op pakken
+  m_Text: 'Grab all the apples to go to the next level within time.
 
-    Als
-    je hartje pak krijg je weer een leven er bij'
+
+    Controlls:
+
+    A
+    and D or Left and Right arrow to move.
+
+    Space to jump.
+
+    Esc for pause
+    menu.'
 --- !u!222 &844867291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3628,7 +3636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374716734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 72, y: 6.5, z: 0.076286815}
+  m_LocalPosition: {x: 72, y: 6.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3792,7 +3800,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint 1 (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -22273,7 +22281,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint 1
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -22775,7 +22783,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 149685591161398429, guid: 289b27ad0a446fd4eb098361dcb260d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.076286815
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 149685591161398429, guid: 289b27ad0a446fd4eb098361dcb260d8, type: 3}
       propertyPath: m_LocalRotation.w

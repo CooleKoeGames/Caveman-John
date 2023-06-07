@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149685591161398418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.377438, y: -0.71378624, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101,9 +101,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03, y: -0.03}
   serializedVersion: 2
-  m_Radius: 0.56201696
+  m_Radius: 0.53
 --- !u!114 &149685591161398416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +132,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 0}
   - {fileID: 0}
+  currentWaypointIndex: 0
   speed: 2
 --- !u!114 &149685591161398428
 MonoBehaviour:
@@ -145,4 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 024d97ed4c56a734590e2ee1ec3b91c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
+  waypoint: {fileID: 149685591161398417}

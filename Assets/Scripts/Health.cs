@@ -48,6 +48,7 @@ public class Health : MonoBehaviour
             anim.SetTrigger("death");
             GetComponent<PlayerMovement>().enabled = false;
             rb.bodyType = RigidbodyType2D.Static;
+            gameOver.gameOver();
             dead = true;
         }
     }

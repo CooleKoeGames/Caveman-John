@@ -1594,7 +1594,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint 1 (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1725,10 +1725,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Om je grot weer binnen te gaan moet je onderweg al het eten op pakken
+  m_Text: 'Grab all the apples to go to the next level within time.
 
-    Als
-    je hartje pak krijg je weer een leven er bij'
+
+    Controlls:
+
+    A
+    and D or Left and Right arrow to move.
+
+    Space to jump.
+
+    Esc for pause
+    menu.'
 --- !u!222 &844867291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3885,7 +3893,7 @@ GameObject:
   m_Layer: 0
   m_Name: Waypoint 1
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -22584,10 +22592,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5263614753791822966, guid: e292c590058b9ee4ca2445ca833d223e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5263614753791822967, guid: e292c590058b9ee4ca2445ca833d223e, type: 3}
-      propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6749180036604204572, guid: e292c590058b9ee4ca2445ca833d223e, type: 3}

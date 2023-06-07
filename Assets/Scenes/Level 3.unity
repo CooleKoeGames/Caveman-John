@@ -370,7 +370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4437485474005192758, guid: 684f6eb2275e1e94380f90398724a184, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.67115
+      value: 19.92115
       objectReference: {fileID: 0}
     - target: {fileID: 4437485474005192758, guid: 684f6eb2275e1e94380f90398724a184, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1810,10 +1810,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Om je grot weer binnen te gaan moet je onderweg al het eten op pakken
+  m_Text: 'Grab all the apples to go to the next level within time.
 
-    Als
-    je hartje pak krijg je weer een leven er bij'
+
+    Controlls:
+
+    A
+    and D or Left and Right arrow to move.
+
+    Space to jump.
+
+    Esc for pause
+    menu.'
 --- !u!222 &844867291
 CanvasRenderer:
   m_ObjectHideFlags: 0

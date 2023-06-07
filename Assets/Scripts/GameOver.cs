@@ -15,6 +15,7 @@ public class GameOver : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        ItemCollector.foodCollected = 0;
     }
 
     public void BackToMain()
